@@ -1,0 +1,28 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#tooltip{
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    pointer-events: none;
+}
